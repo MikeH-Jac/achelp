@@ -2,8 +2,8 @@ name: ci
 on:
   push:
     branches:
-      - master 
-      - main
+      - master
+      - trunk
 permissions:
   contents: write
 jobs:
