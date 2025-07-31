@@ -1,4 +1,52 @@
+nav:
+  - Home: index.md
+  - General:
+    - Searching: general/search.md
+  - Managers:
+    - Assets: managers/assets/assets-mgr.md
+    - Ecrs: managers/ecrs/ecrs-mgr.md
+    - Ncrs: managers/ncrs/ncrs-mgr.md
+    - Orders: managers/orders/orders-mgr.md
+    - Parts: managers/parts/parts-mgr.md
+    - Parts Lists: managers/partslists/partslists-mgr.md
+    - Shipping: managers/shipping/shipping-mgr.md
+  - Operations:
+    - Email Documents: operations/emaildocs/email-documents.md
+  - Admin:
+    - User Filters: admin/user-select.md
+  - About: about.md
+
+extra_css:
+  - stylesheets/extra.css
+
 site_name: AppCOM Help
 site_url: https://mikeh-jac.github.io/achelp/
 theme:
   name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/eye
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode    
+
+markdown_extensions:
+  - admonition
+  - pymdownx.blocks.caption
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
