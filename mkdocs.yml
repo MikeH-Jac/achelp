@@ -9,6 +9,7 @@ nav:
     - Orders: managers/orders/orders-mgr.md
     - Parts: managers/parts/parts-mgr.md
     - Parts Lists: managers/partslists/partslists-mgr.md
+    - Purchase Requisitions: managers/preqs/preqs-mgr.md
     - Shipping: managers/shipping/shipping-mgr.md
   - Operations:
     - Email Documents: operations/emaildocs/email-documents.md
