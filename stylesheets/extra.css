@@ -1,0 +1,19 @@
+.md-typeset {
+  font-size: .7rem;
+  line-height: 1.2
+}
+
+.md-grid {
+  margin-left: 2%;
+  margin-right: 2%;
+  max-width: 100%;
+}
+
+.md-typeset h1 {
+  font-size: 1.8rem;
+}
+
+.md-typeset h2 {
+  font-size: 1.5rem;
+  /* text-decoration: underline; */
+}
