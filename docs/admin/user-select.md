@@ -9,18 +9,22 @@ Let's use the selection of a Work Order's Form One Inspector as an example of ho
 ![](images/user-sel-1.png)
 
 When the Select User dialog is opened, notice the Filter Name `QaInspectors` is specified.  This means "Only Users that match the `QaInspectors` filter criteria will be displayed in this dialog".  
-The Filter Name is programmed in AppCOM for most User Select dialogs.
+
+A Filter Name is programmed into AppCOM for most User Select dialogs.
 
 ![](images/Z84X0OAvH8.png)
 
 ## Set Filter Criteria
 
-The basic steps are as follows:
-1. Create a new User Tag that can be assigned to users.
-1. Assign the new User Tag to any users you want to be included in the selection.
-1. Assign the new User Tag to the User Select control's filter.
+The basic steps are as follows:  
+
+1. (Optional) Create a new User Tag that can be assigned to users.
+1. (Optional) Assign the new User Tag to any users you want to be included in the selection.
+1. Set filter criterion, including optionally assigning the new User Tag to the User Select control's filter.
 
 ### Create User Tag
+
+Do this only if the user select dialog warrants finer control over the selection of users.  In many cases, existing tags can be used, or simply just specifying a set of user properties is sufficient.
 
 In the **AppCOM Settings Manager - Authorization - User Settings** panel, create a new User Tag called *FormOneInspector* (the name doesn't really matter, but should be unique and descriptive).
 

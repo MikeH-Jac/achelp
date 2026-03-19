@@ -17,7 +17,6 @@ This is caused when the Part's Manufacturer and the Purchase Req's Vendor are no
 Quite possibly, the Part's Manufacturer was changed after it was added to the Preq.
 
 ![alt text](AppComd_bSDRlpc2jq.png)
-![](image.png)
 /// caption
 Purchase Requisition Line Item Form
 ///

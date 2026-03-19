@@ -1,7 +1,8 @@
 nav:
   - Home: index.md
   - General:
-    - Searching: general/search.md
+    - Searching: general/search/search.md
+    - View Columns: general/columns/columns.md
   - Managers:
     - Assets: managers/assets/assets-mgr.md
     - Ecrs: managers/ecrs/ecrs-mgr.md
